@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(53, 47, 44);
+    border: 10px;
+    list-style: none;
+}
+
+/* configuração do header*/
+
+header {
+    width: 100vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(43, 24, 12, 0.781);
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    width: 300px;
+}
+
+nav {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+   
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51, 36, 17);
+}
+
+.principal {
+    background-color: rgb(228, 182, 145);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.principal h1{
+    text-align: center;
+}
+.box{
+   
+    margin: 10px auto;
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    padding: 10px;
+}
+.box img{
+    border-radius: 50%;
+}
+.box p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.geral{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(228, 182, 145);
+}
+.geral h2{
+    color: rgb(73, 47, 32);
+    text-align: center;
+}
+.geral p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}

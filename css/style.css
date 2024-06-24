@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(3, 2, 0);
+    border: 10px;
+}
+
+/* configuração do header*/
+
+header {
+    width: 100vw;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(17, 16, 16);
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    width: 300px;
+}
+
+nav {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(82, 59, 30);
+}
+
+body {
+    background-color: rgb(228, 182, 145);
+
+
+}
+
+.box {
+    width: 90vw;
+    height: auto;
+    margin: 10px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.box2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.figura {
+    border: 1px solid rgb(223, 38, 38);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    justify-content: space-around;
+}
+
+.box p {
+
+    text-align: justify;
+    text-indent: 15px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.text {
+    margin-bottom: 30px;
+}
+
+.time {
+    text-align: center;
+    width: 90vw;
+    height: auto;
+    margin: 10px auto;
+    padding: 30px;
+    display: flex;
+   
+    
+}
+.geral p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*fim do header*/
